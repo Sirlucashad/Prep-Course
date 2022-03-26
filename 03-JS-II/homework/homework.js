@@ -50,13 +50,10 @@ function saludo(idioma) {
 switch (idioma) {
   case "aleman" :
     return "Guten Tag!";
-    break;
     case "mandarin" :
       return "Ni Hao!";
-      break;
       case "ingles" : 
       return "Hello!";
-      break;
     default : 
   return "Hola!"
 }
